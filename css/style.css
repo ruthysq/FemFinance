@@ -1,0 +1,194 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+
+/*--header--*/
+
+.wrapperheader p{
+text-align: left;
+}
+.site-navigation ul{
+display:block;
+list-style-type:none;
+}
+
+.site-navigation ul li {
+display: inline-block;
+float: none;
+}
+
+
+
+body {
+max-width: 1300px;
+font-family: 'Helvitica', sans-serif;
+font-size: 20px;
+line-height: 1.5;
+cursor: default;
+}
+
+/*--columns x 3--*/
+
+.column1  {
+  width: 300px;
+  height: 1020px;
+  float: left;
+  background-color: none;
+  margin-left: 50px;
+  margin-top: 100px;
+
+}
+
+.column2  {
+  width: 460px;
+  height: 1020px;
+  margin-left: 70px;
+  float: left;
+  background-color: none;
+  margin-top: 100px;
+}
+
+.column3 {
+  width: 300px;
+  height: 1020px;
+  float: right;
+  margin-right: 50px;
+  background-color: none;
+  margin-top: 100px;
+}
+
+/*--column 1 boxes --*/
+.column1 .box1 {
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 250px;
+  background-color:;
+}
+
+
+.column1 .box2{
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 250px;
+  background-color: ;
+
+}
+
+.column1 .box3{
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 250px;
+  background-color:;
+}
+
+/*--column 2 boxes --*/
+.column2 .box1{
+  padding:25px;
+  height: 400px;
+  width: 400px;
+  margin:25px;
+  border: 2px solid;
+  background-color: ;
+
+
+}
+
+.column2 .box2{
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 400px;
+  background-color:;
+}
+
+.column2 .box3{
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 400px;
+  background-color:;
+}
+
+/*--column 3 boxes --*/
+.column3 .box1{
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 250px;
+  background-color:;
+}
+
+.column3 .box2{
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 250px;
+  background-color:;
+}
+
+.column3 .box3{
+  padding:25px;
+  margin:25px;
+  border: 2px solid;
+  height: 250px;
+  width: 250px;
+  background-color: ;
+}
+
+/*--footer/social bar */
+.wrapper ul{
+		position:relative;
+		margin:0 auto;
+		width:1000px;
+    list-style-type: none;
+    display: inline-block;
+
+	}
+
+.wrapper {
+height: 350px;
+
+}
+
+.wrapper ul li{
+display:inline-block;
+
+}
+
+
+h5 {
+text-align: center;
+}
+
+p {
+text-align: center;
+}
+
+#header, #footer {
+		width:100%;
+		float:left;
+	}
+
+}
+#footer {
+		position:fixed;
+		bottom:0;
+		z-index:999999;
+
+	}
